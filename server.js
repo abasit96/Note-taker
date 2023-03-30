@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const Port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 // middleware
@@ -40,5 +40,5 @@ app.post("/api/notes", (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log("Server is running!")
+    console.log(`Server is running at http://localhost:${PORT}`)
 })
