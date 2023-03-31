@@ -3,7 +3,7 @@
 ## Description
 An Express.js application Note Taker application to help users add notes for their daily schedule.
 
-## Deployed-Webpage
+## Deployed Webpage
 Click the following link to access deployed webpage: (https://my-note-taker10.herokuapp.com/notes)
 
 Screenshots: 
